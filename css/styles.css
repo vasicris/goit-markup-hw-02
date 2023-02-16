@@ -1,6 +1,3 @@
-:root {
-
-}
 
 html {
 font-family: 'Roboto';
@@ -10,7 +7,35 @@ font-size: 14px;
 
 .unstyled-list {
     list-style: none;
+    color: #757575;
 }
+
+.unstyled-list :hover {
+    color: #2196F3
+}
+
+.unstyled-list-footer {
+    list-style: none;
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.unstyled-list-footer :hover {
+    color: #2196F3
+}
+
+.WebStudio-info {
+    color: #757575;
+}
+
+.header-navigation a :hover {
+    color: #2196F3
+}
+
 
 .header-navigation {
 background-color: white;
@@ -31,19 +56,118 @@ color: #2196F3;
 font-weight: 500;
 line-height: 16px;
 letter-spacing: 0.02em;
-color: #2196F3;
+color: #212121;
 }
 
-.portofolio-contacts {
+.portofolio-contacts {  
 font-weight: 500;
 line-height: 16px;
 letter-spacing: 0.02em;
 color: #212121;
 }
 
-.tel {
+.header-wright {
 font-weight: 500;
 line-height: 16px;
 letter-spacing: 0.02em;
 color: #757575;
 }
+
+.header-wright :hover {
+    color:#2196F3;
+    cursor: pointer;
+    border: none;
+}
+
+.head {
+    background-color: #2F303A;
+}
+
+.head-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.head-button {
+    width: 200px;
+    height: 50px;
+    background-color:  #2196F3;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+.section-our-team {
+    background-color: #F5F4FA;
+}
+
+.title-our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.button {
+    list-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button :hover  {
+    color: #2196F3;
+    cursor: pointer;
+    border: none;
+}
+
+.image-portofolio {
+    width: 370px; 
+    height: 294px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.title-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.description-team {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.footer {
+    background-color:  #2F303A;
+}
+
+
