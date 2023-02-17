@@ -7,16 +7,15 @@ html {
 
 .header-navigation { 
     background-color: white;
-    text-decoration: none;
 }
 
 .header-left {
     list-style: none;
-    text-decoration: none;
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
+    text-decoration: none;
 }
 
 .header-left :hover {
@@ -29,16 +28,12 @@ html {
     text-decoration: none;
 }
 
-.header-navigation a :hover {
+header-navigation a :hover {
     color: #2196F3
 }
 
-
-
-
 .WebStudio-info {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -46,19 +41,16 @@ html {
     color: #2196F3;
 }
 
-.studio {
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #212121;
-}
-
-.portofolio {
+studio {
 
 }
 
-.contacts {
+portofolio {
+    
+}
 
+contacts {
+   
 }
     
 .header-wright {
@@ -97,6 +89,7 @@ html {
 
 li {
     list-style: none;
+    text-decoration: none;
 }
 
 .section-our-team {
@@ -117,7 +110,7 @@ li {
     cursor: pointer;
 }
 
-.button :hover  {
+.button :hover {
     color: #2196F3;
     cursor: pointer;
     border: none;
