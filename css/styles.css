@@ -17,7 +17,6 @@ html {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
-    
 }
 
 .header-left :hover {
@@ -52,19 +51,16 @@ html {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
-    <-text-decoration: none;
 }
 
-.portofolio {  
+.portofolio {
 
-    <-text-decoration: none;
-    }
+}
 
-.contacts {  
-    <-text-decoration: none;
-    }
+.contacts {
+
+}
     
-
 .header-wright {
     font-weight: 500;
     line-height: 16px;
