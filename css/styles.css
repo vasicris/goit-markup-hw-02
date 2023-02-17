@@ -1,13 +1,19 @@
 
 html {
-font-family: 'Roboto';
-font-style: normal;
-font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
 }
+
+.header-navigation { 
+    background-color: white;
+    text-decoration: none;
+    }
 
 .unstyled-list {
     list-style: none;
     color: #757575;
+    text-decoration: none;
 }
 
 .unstyled-list :hover {
@@ -30,7 +36,7 @@ font-size: 14px;
 
 .WebStudio-info {
     color: #757575;
-    text-decoration: none;
+    <--text-decoration: none;
 }
 
 .header-navigation a :hover {
@@ -38,10 +44,7 @@ font-size: 14px;
 }
 
 
-.header-navigation {
-background-color: white;
-text-decoration: none;
-}
+
 
 .WebStudio-info {
 font-family: 'Raleway';
