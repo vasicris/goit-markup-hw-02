@@ -7,36 +7,27 @@ html {
 
 .header-navigation { 
     background-color: white;
-    text-decoration: none;
+    <-text-decoration: none;
     }
 
-.unstyled-list {
+.header-left {
     list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    
+}
+
+.header-left :hover {
+    color: #2196F3
+}
+
+
+.WebStudio-info {s
     color: #757575;
     text-decoration: none;
-}
-
-.unstyled-list :hover {
-    color: #2196F3
-}
-
-.unstyled-list-footer {
-    list-style: none;
-    color: #757575;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.unstyled-list-footer :hover {
-    color: #2196F3
-}
-
-.WebStudio-info {
-    color: #757575;
-    <--text-decoration: none;
 }
 
 .header-navigation a :hover {
@@ -47,34 +38,38 @@ html {
 
 
 .WebStudio-info {
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: #2196F3;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
 }
 
 .studio {
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: #212121;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    <-text-decoration: none;
 }
 
-.portofolio-contacts {  
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: #212121;
-}
+.portofolio {  
+
+    <-text-decoration: none;
+    }
+
+.contacts {  
+    <-text-decoration: none;
+    }
+    
 
 .header-wright {
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: #757575;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
 }
 
 .header-wright :hover {
@@ -174,4 +169,16 @@ li {
     background-color:  #2F303A;
 }
 
+.unstyled-list-footer {
+    list-style: none;
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
 
+.unstyled-list-footer :hover {
+    color: #2196F3
+}
