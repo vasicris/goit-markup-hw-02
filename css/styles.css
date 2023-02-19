@@ -102,15 +102,28 @@ li {
     color: #212121;
 }
 
-.button {
+.button-projects {
     list-style: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
+    border: none;
 }
 
-.button :hover {
+.button-projects :hover {
     color: #2196F3;
     cursor: pointer;
+    border: none;
+}
+
+.button {
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
     border: none;
 }
 
