@@ -7,7 +7,6 @@ html {
 
 .header-navigation { 
     background-color: white;
-    text-decoration: none;
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02em;
@@ -15,11 +14,8 @@ html {
 
 .header-left {
     list-style: none;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em;
     color: #212121;
-    text-decoration: none;
+    
 }
 
 .header-left :hover {
@@ -34,10 +30,12 @@ html {
 
 .page-link {
     color: #212121;
+    text-decoration: none;
 }
 
 .contact-link {
     color: #757575;
+    text-decoration: none;
 }
 
 header-navigation a :hover {
