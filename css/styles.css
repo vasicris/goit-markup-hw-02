@@ -21,10 +21,10 @@ html {
     cursor: pointer;
 }
 
-.WebStudio-info {
+/* .WebStudio-info {
     color: #757575;
     text-decoration: none;
-}
+} */
 
 .page-link {
     color: #212121;
@@ -42,11 +42,13 @@ header-navigation a :hover {
 
 .WebStudio-info {
     font-family: 'Raleway';
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #2196F3;
+    text-decoration: none;
 }
  
 .header-wright {
