@@ -7,6 +7,10 @@ html {
 
 .header-navigation { 
     background-color: white;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .header-left {
@@ -23,10 +27,17 @@ html {
     cursor: pointer;
 }
 
-
 .WebStudio-info {
     color: #757575;
     text-decoration: none;
+}
+
+.page-link {
+    color: #212121;
+}
+
+.contact-link {
+    color: #757575;
 }
 
 header-navigation a :hover {
@@ -41,19 +52,7 @@ header-navigation a :hover {
     letter-spacing: 0.03em;
     color: #2196F3;
 }
-
-studio {
-
-}
-
-portofolio {
-    
-}
-
-contacts {
-   
-}
-    
+ 
 .header-wright {
     font-weight: 500;
     line-height: 16px;
