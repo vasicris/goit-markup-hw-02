@@ -45,6 +45,14 @@ header-navigation a :hover {
     color: #2196F3;
     text-decoration: none;
 }
+
+#studio1 {
+    color: black;
+  }
+
+  #studio2 {
+    color: white;
+  }
  
 .header-wright {
     font-weight: 500;
@@ -107,18 +115,21 @@ li {
     color: #212121;
 }
 
+
 .button-projects {
     list-style: none;
     border-radius: 4px;
     cursor: pointer;
-    /* border: none;  */
     color: #212121;
 }
 
 
+
 .button-projects :hover {
+    color: #2196F3;
     cursor: pointer;
     border: none;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     position: absolute;
     width: 64px;
     height: 38px;
@@ -127,33 +138,47 @@ li {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     }
-    
+     
 
-.button {
+
+button {
+    height: 38px;
     background: #F5F4FA;
-    /*border-radius: 4px;*/
+    border-radius: 4px;
+    cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
-    /* color: #212121; */
+    color: #212121;
     border: none;
-    height: 38px;
 }
+
 
 /*
 .button :hover {
-    position: absolute;
+    color: #2196F3;
     cursor: pointer;
+    height: 38px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    position: absolute;
     border: none;
     width: 64px;
     height: 38px;
     background: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    }
-    */
+    border-radius: 4px;   
+}
+*/
+    
 
 .image-portofolio {
     width: 370px; 
